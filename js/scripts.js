@@ -26,7 +26,6 @@ const objectToMap = ( obj ) => {
     var objVals = Object.values( obj );
     var objKeys = Object.keys( obj );
     var objMap = new Map();
-    // console.log( objKeys )
     for ( let i = 0; i < objKeys.length; i++ ) {
         objMap.set( objKeys[ i ] , objVals[ i ] );
     }
